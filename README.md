@@ -1,2 +1,3 @@
-# web-app-template
-Includes a gulpfile setup to build a dist directory by preprocessing sass and typescript, combining, minifying, babelifying, and uglifying css and javascript. It also includes browsersync for live reload.
+Run npm install and then you can use gulp for development by running the command "gulp" in your terminal.
+
+Set up using bootstrap, sass, and javascript
