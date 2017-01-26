@@ -1,0 +1,73 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css">
+ 
+	<link rel="stylesheet" type="text/css" href="./style.css">
+ 
+<title>Movie Soundboard</title> 
+</head> 
+<body>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+      		<div class="container">
+        		<div class="navbar-header">
+         	 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            				<span class="sr-only">Toggle navigation</span>
+            				<span class="icon-bar"></span>
+          			</button>
+          			<a class="navbar-brand" href="#">Movie Soundboard</a>
+        		</div>
+        		<div id="navbar" class="collapse navbar-collapse">
+          			<ul class="nav navbar-nav">
+            				<li class="active"><a href="#">Home</a></li>
+          			</ul>
+        		</div><!--/.nav-collapse -->
+      		</div>
+    	</nav>
+
+	<div class="container">	
+		<div id="title">
+        		<h1>Welcome to the Movie Soundboard!</h1>
+       		</div>
+		</br>
+		<div class="page-header">
+			<div class="form-group form-inline">
+				<h2>Select a movie: &nbsp 
+					<select class="form-control input-lg" id="select-movie">
+						<option selected="true" disabled="disabled" value="default-val">(Choose one)</option>
+						<option value="nacho-libre">Nacho Libre</option>
+						<option value="star-wars">Star Wars</option>
+					</select>
+				</h2>
+			</div>
+		</div>
+
+		<div class="images">
+			<div id="image-header">
+				<h3>Click on an image</h3>
+			</div>
+			<div id="nacho-libre">
+				<img src="images/Nacho.jpg" alt="Nacho Libre" id="nacho" style="cursor:pointer">
+				</br>
+				<img src="images/Hector.jpg" alt="Hector Jimenez" id="hector" style="cursor:pointer">
+			</div>
+			<div id="star-wars">
+				<img src="images/Han.jpg" alt="Han Solo" id="han" style="cursor:pointer">
+				</br>
+				<img src="images/Vader.jpg" alt="Darth Vader" id="vader" style="cursor:pointer">	
+			</div>
+		</div>
+	</div>
+
+
+	<script src="https://code.jquery.com/jquery-3.1.1.min.js"></script> 
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.min.js"></script>
+ 	<script src="https://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
+	<script src="main.js"></script>
+</body>
+</html>

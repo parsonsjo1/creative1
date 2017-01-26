@@ -1,0 +1,50 @@
+body {
+	padding-top: 50px;
+}
+
+.container #title {
+	text-align: center;
+}
+
+.images img {
+		margin: 10px;
+		width: 200px;
+		height: auto;
+}
+
+.images {
+	display: block;
+}
+
+#image-header {
+	display: none;
+}
+
+#nacho-libre {
+	display: none;
+}
+
+#star-wars {
+	display: none;
+}
+
+.move-image {
+	position: relative;
+	-webkit-animation-name: move-image;
+	-webkit-animation-duration: 1s;
+	-webkit-animation-iteration-count: 1;
+	animation-name: move-image;
+	animation-duration: 1s;
+	animation-iteration-count: 1;	
+}
+
+@-webkit-keyframes move-image {
+	0% {left: 0px;}
+	100% {left: 500px;}
+}
+
+@keyframes move-image {
+	0% {left: 0px;}
+	100% {left: 500px;}
+}
+
