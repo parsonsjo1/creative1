@@ -17,41 +17,60 @@
 	</head>
 	<body>
 
+		<nav class="navbar navbar-inverse navbar-fixed-top">
+      		<div class="container">
+        		<div class="navbar-header">
+         	 		<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            				<span class="sr-only">Toggle navigation</span>
+            				<span class="icon-bar"></span>
+          			</button>
+          			<a class="navbar-brand" href="#">Movie Soundboard</a>
+        		</div>
+        		<div id="navbar" class="collapse navbar-collapse">
+          			<ul class="nav navbar-nav">
+            				<li class="active"><a href="#">Home</a></li>
+          			</ul>
+        		</div><!--/.nav-collapse -->
+      		</div>
+	    </nav>	
+
         <div class="container" id="main-body">
 
-			<h1>Movie Talk</h1>
-
 			<div class="row align-items-center" id="movie-list">
-				<div class="col-4">
+				<div class="col-12">
+					<h2>Select a movie</h2>
+				</div>
+				<div class="col-6" id="nacho-libre-title">
 					<h3>Nacho Libre</h3>
 				</div>
-				<div class="col-4">
-					<h3>Nacho Libre</h3>
-				</div>
-				<div class="col-4">
-					<h3>Nacho Libre</h3>
+				<div class="col-6" id="star-wars-title">
+					<h3>Star Wars</h3>
 				</div>
 			</div>
 
         	<div class="row align-items-center images">
-        		<div class="col-4">
-        			<img src="https://i.ytimg.com/vi/K5k8sx7C5gg/maxresdefault.jpg" alt="" class="img-thumbnail">
+        		<div class="col-12" id="image-header">
+					<h3>Click on an image</h3>
+				</div>
+
+        		<div class="col-4 nacho-libre">
+        			<img src="./images/nacho1.jpg" alt="" class="img-thumbnail" id="nacho1">
         		</div>
-        		<div class="col-4">        			
-        			<img src="https://pbs.twimg.com/profile_images/461737379116503040/CaYA3y6e.png" alt="" class="img-thumbnail">
+        		<div class="col-4 nacho-libre">        			
+        			<img src="./images/Hector.jpg" alt="" class="img-thumbnail" id="nacho2">
         		</div>
-        		<div class="col-4">        			
-        			<img src="http://www.indiewire.com/wp-content/uploads/2015/05/nacho-libre.jpg?w=680" alt="" class="img-thumbnail">
+        		<div class="col-4 nacho-libre">        			
+        			<img src="./images/nacho3.jpg" alt="" class="img-thumbnail" id="nacho3">
         		</div>
 
-        		<div class="col-4">
-        			<img src="https://i.ytimg.com/vi/K5k8sx7C5gg/maxresdefault.jpg" alt="" class="img-thumbnail">
+        		<div class="col-4 star-wars">
+        			<img src="./images/Han.jpg" alt="" class="img-thumbnail" id="han">
         		</div>
-        		<div class="col-4">        			
-        			<img src="https://pbs.twimg.com/profile_images/461737379116503040/CaYA3y6e.png" alt="" class="img-thumbnail">
+        		<div class="col-4 star-wars">        			
+        			<img src="./images/Vader.jpg" alt="" class="img-thumbnail" id="vader">
         		</div>
-        		<div class="col-4">        			
-        			<img src="http://www.indiewire.com/wp-content/uploads/2015/05/nacho-libre.jpg?w=680" alt="" class="img-thumbnail">
+        		<div class="col-4 star-wars">        			
+        			<img src="./images/chewbacca.png" alt="" class="img-thumbnail" id="chewbacca">
         		</div>        		
         	</div>
 
